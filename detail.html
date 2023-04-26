@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Detail | CryptoView</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito&family=Ubuntu&display=swap"
+            rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/ff3f5be92c.js"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./detail.css" />
+    </head>
+    <body>
+
+        <!-- This if the navigation bar -->
+        <nav class="flex_container">
+            <div class="flex_container">
+                <img src="./chainlink.png" alt="Logo" class="logo" />
+                <h1 class="view_text">CryptoView</h1>
+            </div>
+            <a href="./search.html" class="anchor_btn">Back</a>
+        </nav>
+
+        <!-- Description and Price Container -->
+        <section class="description_price flex_container">
+            <!-- Description Container -->
+            <div class="description flex_container">
+                <img src="" id="coin_img" alt="Coin Image" />
+                <div class="w_40">
+                    <h1 id="coin_name"></h1>
+                    <p class="text_justify" id="coin_description"></p>
+                </div>
+            </div>
+
+            <!-- Price container -->
+            <div class="price">
+                <table class="mt_1_25">
+                    <tr>
+                        <td>INR</td>
+                        <td><span id="inr_price"></span></td>
+                    </tr>
+                    <tr>
+                        <td>USD</td>
+                        <td><span id="usd_price"></span></td>
+                    </tr>
+                    <tr>
+                        <td>EUR</td>
+                        <td><span id="eur_price"></span></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <br />
+        <br />
+        <br />
+
+        <!-- Historical Chart container -->
+        <section class="historical mt_2">
+            <canvas id="myChart"></canvas>
+        </section>
+        <footer class="footer_">
+            <i class="fa-brands fa-facebook-f"></i>
+            &emsp;
+            <i class="fa-brands fa-instagram"></i>
+            &emsp;
+            <i class="fa-brands fa-twitter"></i>
+            &emsp;
+            <i class="fa-brands fa-linkedin-in"></i>
+
+            <h3>Copyright &copy; By indrasen simgh </h3>
+            <h3>Contact: indrasensingh7652@gmail.com</h3>
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+        <script src="./detail.js"></script>
+    </body>
+</html>

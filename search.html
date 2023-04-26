@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search | CryptoView</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito&family=Ubuntu&display=swap"
+            rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/ff3f5be92c.js"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./search.css" />
+    </head>
+    <body>
+
+        <nav class="flex_container">
+            <div class="flex_container">
+                <img src="./chainlink.png" alt="Logo" class="logo" />
+                <h1 class="view_text">CryptoView</h1>
+            </div>
+            <a href="index.html" class="anchor_btn">Back</a>
+        </nav>
+
+        <p>
+            <h1 class="search_text">Search Crypto</h1>
+        </p>
+
+        <section id="search_container">
+            <form action="">
+                <input type="text" placeholder="Search Here ..." name="q"
+                    id="search_field" />
+                <button id="search_icon">🔍</button>
+            </form>
+        </section>
+
+        <section>
+            <table>
+                <thead>
+                    <tr class="crypto_detail">
+                        <th class="s_no">S.No.</th>
+                        <th class="logo_">Logo</th>
+                        <th class="name">Name</th>
+                        <th class="link_">Link (More info)</th>
+                    </tr>
+                </thead>
+                <tbody id="search_result"></tbody>
+            </table>
+        </section>
+
+        <footer class="footer_">
+            <i class="fa-brands fa-facebook-f"></i>
+            &emsp;
+            <i class="fa-brands fa-instagram"></i>
+            &emsp;
+            <i class="fa-brands fa-twitter"></i>
+            &emsp;
+            <i class="fa-brands fa-linkedin-in"></i>
+
+            <h3>Copyright &copy; By indrasen singh </h3>
+            <h3>Contact: indrasensingh7652@gmail.com</h3>
+        </footer>
+
+        <script src="./search.js"></script>
+    </body>
+
+
+</html>

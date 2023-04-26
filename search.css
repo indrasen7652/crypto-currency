@@ -1,0 +1,94 @@
+body{
+    background-color: antiquewhite;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+
+}
+#search_field{
+    border-radius: 5px;
+    background-color: rgb(194, 199, 199);
+    height: 50px;
+    width: 60vw;
+    border: none;
+}
+#search_field:hover{
+    position: relative;
+    top: -2px;
+    left: -2px;
+    box-shadow: 2px 2px 2px 2px rgb(54, 55, 70);
+    background-color: whitesmoke;
+}
+#search_icon{
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(63, 68, 220, 0.652);
+    cursor: pointer;
+    border: 1px solid rgb(114, 195, 29);
+}
+#search_container{
+
+    text-align: center;
+}
+.search_text{
+    text-align: center;
+}
+nav {
+    height: 3rem;
+    background-color: #CAF0F8;
+    padding: 0.25rem 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0px;
+
+ }
+.logo {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.anchor_btn {
+    border: 1px solid gray;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+}
+.anchor_btn:hover{
+    background-color: gray;
+    color: white;
+}
+.crypto_detail{
+    width: 100vw;
+    gap: 100px;
+}
+#search_icon:hover{
+    position: relative;
+    top: -3px;
+    left: -3px;
+    box-shadow: 5px 7px 0px #03045E;
+
+}
+footer {
+    text-align: center;
+    background-color: #353e40;
+    padding: 1rem;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+footer>h3 {
+    padding-top: 0.5rem;
+}
+.footer_{
+    position: relative;
+    top: 70vh;
+}
+.view_text{
+    margin: 0px;
+}
